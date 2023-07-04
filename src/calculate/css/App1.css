@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "chalk";
+  src: url('/Chalk-JP.otf') format('opentype');
+}
+
+
+.calculate {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  font-family: chalk;
+}
+
+button{
+  font-size: 20px;
+  margin:5px;
+  cursor:pointer;
+}
+
+.calcTitle {
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 15%;
+}
+
+.goal {
+  margin-top: 2%;
+  font-size: 32px;
+}
+
+.count {
+  margin-top: 1%;
+  font-size: 25px;
+}
+/* 背景画像　黒板 */
+.kokuban {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+/* レスポンシブ対応　スマホ */
+@media (max-width: 767px) {
+
+  .calc {
+    font-size: 10px;
+  }
+
+
+  .calcTitle {
+    font-size: 22px;
+    margin-top: 25%;
+  }
+
+  .goal {
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  .count {
+    font-size: 18px;
+    margin-top: 4%;
+  }
+/* 背景画像　黒板 */
+
+  .kokuban {
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+}

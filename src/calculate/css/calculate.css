@@ -1,0 +1,31 @@
+.container_calc {
+    margin-top: 1%;
+}
+
+.calc , .reset{
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.howmany {
+    font-size: 20px;
+}
+/* レスポンシブ対応　スマホ */
+@media (max-width: 767px) {
+    .container_calc {
+        margin-top: 5%;
+    }
+
+    .calc , .reset {
+        font-size: 18px;
+        margin-left: 3%;
+        margin-right: 3%;
+        }
+
+    .howmany {
+        font-size: 15px;
+    }
+}

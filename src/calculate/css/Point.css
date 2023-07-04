@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "chalk";
+    src: url('/Chalk-JP.otf') format('opentype');
+  }
+
+  .dead_container{
+    position: absolute;
+    z-index: 3;
+    width: 70%;
+    top: 20%;
+    left: 15%;
+    color: red;
+}
+
+  
+.gameover{  
+    font-size: 55px;
+    width: 60%;
+    height: auto;
+    color: red;
+    display: inline-block;
+    font-family: chalk;
+}
+
+
+.restart , .allreset{
+    display: block;
+    width: 55%;
+    margin-left: 22.5%;
+    font-size: 30px;
+}
+
+.restart {
+    margin-top: 5%;
+}
+
+.score {
+    font-size: 20px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .score {
+        font-size: 18px;
+        margin-top: 6%;
+    }
+    .gameover{
+        font-size: 25px;
+    }
+
+    .allreset , .restart {
+        font-size: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "chalk";
+    src: url('/Chalk-JP.otf') format('opentype');
+  }
+  
+  .rule_button{
+    position: chalk;
+    z-index: 2;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.howto{
+    position:absolute;
+    top: 3%;
+    font-family: chalk;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+}
+.howtotitle {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+.description {
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.sentence {
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+.back_button {
+    font-size: 20px;
+}
+
+
+/* 背景黒板  */
+.kokuban {
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+
+    .howtotitle  {
+        font-size: 20px;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        
+    }
+    .sentence {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "chalk";
+    src: url('/Chalk-JP.otf') format('opentype');
+  }  
+
+  .clear_container {
+    font-family: chalk;
+    color: red;
+    position: absolute;
+    z-index: 3;
+    width: 70%;
+    top: 20%;
+    left: 15%;
+}
+.message{
+    font-size: 55px;
+    width: 60%;
+    height: auto;
+    color: red;
+    display: inline-block;
+    font-family: chalk;
+}
+
+.clear_score {
+    font-size: 35px;
+}
+
+@media (max-width: 767px) {
+    .message{
+        font-size: 25px;
+    }
+    .clear_score {
+        font-size: 25px;
+    }
+}

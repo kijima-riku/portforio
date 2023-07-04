@@ -1,0 +1,50 @@
+.container_skill {
+  height: auto;
+}
+
+.skill{
+    padding-top: 30px;  
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;  
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 7.5% 0 7.5%;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    padding-bottom: 7.5%;
+    font-size: 24px;
+  }
+  
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+  
+  .skill-name {
+    margin-left: 2%;
+  }
+  
+  .skill-text {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+@media (max-width: 767px) {
+
+    .skill-item{
+    padding-top: 7.5%;
+    padding-bottom: 10%;
+  }
+}
