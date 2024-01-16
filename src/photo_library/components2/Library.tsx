@@ -20,6 +20,7 @@ const Library = () => {
   return (
         <div className='library_wrapper'>
             <h2 className="subtitle italic">-Library-</h2>
+                <p className='guide'>クリックで拡大できます</p>
             <div className="grid_wrapper">
                 {Photos.map((photo, index) => (
                     <div className="photo" key={index}>
@@ -36,7 +37,6 @@ const Library = () => {
                     </>
                 )}
             </div>
-            {/* <p className='guide'>クリックで拡大できます</p> */}
         </div>
   )
 }
